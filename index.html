@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- start font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap"
+      rel="stylesheet"
+    />
+    <!-- end font -->
+    <!-- start css style sheet -->
+    <link rel="stylesheet" href="./css/stylesheet.css" />
+    <!-- end css style sheet -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blackjack-Game</title>
+  </head>
+  <body>
+    <div class="container">
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/511/original/pngwing.com_%282%29.png?1670683105"
+        alt="Blackjack Game Equipment"
+      />
+      <h1>Blackjack</h1>
+      <p id="message-el">Want to play a round?</p>
+      <p id="cards-el">Cards:</p>
+      <p id="sum-el">Sum:</p>
+      <div class="btns">
+        <button onclick="startGame()">START GAME</button>
+        <button onclick="newCard()">NEW CARD</button>
+      </div>
+      <p id="player-el"></p>
+    </div>
+    <script src="./js/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  color: #f9f7ec;
+  background: linear-gradient(#2c2927, #004719, #2c2927);
+  font-family: 'Ramabhadra', sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(#2c2927, #004719, #2c2927);
+}
+h1 {
+  margin: 0;
+  font-size: 40px;
+}
+p {
+  font-size: 20px;
+  font-weight: bold;
+}
+img {
+  width: 300px;
+  margin: 0;
+}
+.btns {
+  display: flex;
+  justify-content: space-between;
+  width: 370px;
+}
+button {
+  padding: 10px 30px;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  transition: all 200ms ease-in-out;
+  background-color: #f9f7ec;
+  color: #004719;
+  font-weight: bold;
+  text-shadow: 0px 0px 1px #004719;
+  box-shadow: 0px 0px 3px #f9f7ec;
+}
+button:hover {
+  cursor: pointer;
+  color: #f9f7ec;
+  background-color: #0c8637;
+  box-shadow: 0px 0px 3px #004719;
+}
+#cards-el,
+#sum-el {
+  margin-top: 0;
+}
